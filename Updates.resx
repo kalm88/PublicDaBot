@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>October 2015	*Small fixes
+- Fixed Exp Gem option glitches.
+- Andor 80 can be added to alarm maps list.
+- PND diond and PND before curse options added to all monsters tab.
+- Added option to destroy tonics on Hunting tab.
+
+August 2015	*stuff
+- 'Chaos 1' can now be added to alarm maps list (in Alarms Tab).
+- Hardcoded monster lists for 'All Monsters' tab for the MAIN
+   master/medenian hunting areas.
+- Added Exp Gem to Hunting tab.
+- Added Ascension tab in General tab to track daily progress.
+- Added Skulled tab to easier keep track of alts that LOG OUT while skulled.
+- Auto walker now uses carpet merchant to tagor instead of songs
+   from medenian inns.
+- No longer targets Pet Pigs (cept in pig chase event).
+- Fixed breisleich option to work with HoF, added hit counter.
+- Added auto-refresh if your spell cast doesn't land after 7 seconds.
+- Adjusted the bots 'Target View Area' (added 2 more rows at the bottom,
+  so it can 'see' and cast on stuff down there).
+- Fixed the 'was seen!' message from displaying alt/friend names.
+- Added option to un-check loot option around non-friends..
+   (leaving it up to you to re-check it when you feel its safe).
+- Added gold check to komadium/hemloch buying.
+- Fixed the load mappack popup glitch in Configure Waypoints popup.
+
+
+
+May 2015		*Misc stuff again.
+- Added necklace switch optional in Skills Tab (for bashers).
+- Fixed a recent (from last update) glitch that caused chars 
+   to not want to cast and stuff.
+- Fixed glitches related to the macro.xml file and unable to log char.
+- Added Giant Ant and Gold Beet in SW 1/2 to All Monsters tab
+   spell attacking.
+- Added White Baboon Counter in YT 24 and Boss Timer.
+- Added Fowls Counter and Quest Timer.
+- Pathfinding now ignores a hidden ishikawa in your path....(so it
+   doesn't walk around him...hopefully this doesn't cause problems!)
+- Added Labor/Faith/Stuck checks to auto-song-prayer at Inns.
+- Updated Safe Mode finally (no more floaty hidden names or bot
+   messages....rogue tab map can't be disabled sry).
+
+
+April 2015		*Misc Fixes.
+- Fixed dojo.
+- Fixed mdsg spam.
+- Fixed spell lines for seargs and UE.
+- Added 'Regged' check for using Glowing Stone trinket.
+- Fixed hwarone carpet merchant.
+- Fixed world map hangups (i think all of them?).
+- Fixed /walk tagor bank, and /walk suomi bank/inn
+- Fixed walking thru ruc/inn to get to andor
+- Walking somewhere now enables heals/ao/dion.
+- Added Lumen Amulet to neck switching (sw or w/e).
+- Fixed 'crasher after dion'.
+- Added Claw Slash to 'Use Skills' option.
+
+December 2014	*Updates and Fixes.
+- Added gold check for entering dojo.
+- Fixed Auto Hemloch while hunting, and added it to macro
+   crasher with hems option.
+- Added a delay to using triple imp bonus and shrooms/runes finally
+   (no more double item usage).
+- Fixed walking to Abel areas from Pravat.
+- If Map Alarm is OFF, you will still get the in-game message that
+  someone was seen.
+- Fixed casting dions/hide in Combo utility.
+- Fixed instant ascension (no more glitched popup yay).
+- Fixed Re-enter Insect Event option on misc tab.
+- Disable 1/2 spell speed option now disables manual casting hax too.
+- New Feature: Legend Mark Checklist.
+- Finally added Ignore Aislings List on General Tab. It ignores ANY
+   messages with the name(s) in it.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+10-25-14	*Fixes.
+- No longer targets items in dojo....LOL!
+- Elemus Mount option now correctly saves and loads with templates.
+- Always attack Leaders target fix (it didnt want to assail with alts).
+
+10-18-14	*More minor fixes.
+- Fixed the AS/RS bashing ai for archers, it should now work smoothly
+   with other skills and spells.
+- Bashers no longer target dion'd monsters, unless 1 monster in view.
+- Added the ab 1-24 bows to equip best weapon list.
+- Added D: delay command to Combo Settings.
+
+10-15-14	*Some minor fixes.
+- Hidden alts lacking spells, will no longer break casting around non-friends.
+- If someone is skulled, it will now check to see if nearest person to them is
+   skulled/trapped, to determine if you should go red them.
+
+10-7-14	*New options on Skills tab
+- Added a checkbox to toggle brieslech for as/rs.
+- Added a checkbox to only use Skills if group members are in range #.
+- Added Yowien grey furs to Aman Jungle drop list.
+- Fixed a glitch with ignoring monsters (to prevent kill steals).
+- Fixed the pause all attacks hotkey toggle to be in sync.
+
+10-6-14	*October Events update
+- Auto-close Red Moon Popup.
+- Added "/attack count" and "/attack countess". Manually create 314
+   and 315 spell tabs and select your target type to mpnd/frost/shock/ct,
+   it will toggle attacks on/off.
+
+10-3-14	*Npc Script Fix
+- Dojo/Carpet Merchants/Loures Harbor npc scripts needed updated.
+
+9-25-14	*Minor edits.
+- Auto-repair glitch fixed (sometimes failed to repair).
+- Added Re-enter Insect Event checkbox to Misc tab.
+
+9-9-14	*Ascension Update and Update Update.
+- Added /ascend hp, and /ascend mp, commands.
+- Added 'Instant Ascension' option and 'Buy To HP/MP' options,
+   as well as some text labels to display some info.
+- Added Update updater to keep the updates updated, lets see if I can
+   keep up.
+- Added updates I can remember over the past few weeks or so (random dates).
+
+9-7-14	*You can't attack.
+- Added breisleich option in the Spell Monsters tab, perhaps I'll
+   add Rescue skill later?
+
+9-5-14	*Fixed a looting issue and /withdraw hax issue.
+- You no longer constantly re-loot the same items you dropped.
+- Popups should no longer glitch and should properly close after
+   using /withdraw 'item'.
+
+9-3-14	*Extra Walk Destinations + Slash Commands.
+- Added Tauren destination.
+- Added Chaos 3 end (entrance to 4).
+- Added East Woods 15 and 20 glades to craft armors.
+- Added Abel 5 and 10 caves to craft armors.
+- Added Oren Tower (for ez xp at low level).
+- Added slash commands for said areas and some other areas.
+
+9-1-14	*Auto Guide and Hubae edits.
+- Type /monk, /rogue, /wizard, etc to walk to ToC and auto guide self.
+- Fixed /walk bat, added /walk crab.
+- Automated more sapphire stream popups - and some triggered walking.
+
+8-29-14	*HG/Follow edits.
+- Added a function to follower that will walk to your alt from any map
+   thats hardcoded into the walk destinations matrix, this makes leeching
+   in HG a whole lot smoother since alts will no longer get left maps behind.
+- This edit to the follower has some unwanted results i've noticed so far and
+   will eventually fix them, if you notice anything funny with alts turnning
+   around and running the wrong way, let me know!</value>
+  </data>
+</root>
